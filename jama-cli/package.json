@@ -1,0 +1,44 @@
+
+// package.json
+{
+  name: "gole",
+  // ...
+  "bin": "index.js",
+  // ...
+}
+{
+  "version": "1.0.0",
+  "description": " jama—cli JS directives are extended HTML attributes with the prefix jama—cli . The jama—cli-app directive initializes an jama—cli JS application. The jama—cli-init directive initializes application data. The njama—cli-model directive binds the value of HTML controls (input, select, textarea) to application data. ",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tip",
+    "saymyName",
+    "today"
+
+  ],
+  "author": "Jama Hassan",
+  "license": "ISC"
+  
+ }
+ |
+  |
+  v
+ // package.json
+ {
+  name: "gole",
+  // ...
+  bin: {
+  "gole": "./index.js",
+  "sayName": "./sayName.js",
+  "tip": "./tip.js",
+  "today": "./today.js",
+  "cal": "./cal.js",
+  "kill": "./kill.js",
+  "dd": "./dd.js"
+
+  }
+  // ...
+ }
